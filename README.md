@@ -1,75 +1,26 @@
-# React + TypeScript + Vite
+# GINMEL.AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A digital business card and engineering experiment exploring the intersection of **Deterministic Layout** and **AI-Native Development**.
 
-Currently, two official plugins are available:
+## The Identity
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+14+ years of engineering judgment, transitioning from iOS Architect to Tech Director, and now pioneering as an Indie Full-Stack Builder.
 
-## React Compiler
+## The Canvas: True Reflow
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+This page is a living demonstration of the **Editorial Engine** philosophy. Bypassing traditional CSS constraints, it uses mathematical positioning to create a narrative matrix that breathes and reacts to interaction.
 
-Note: This will impact Vite dev & build performances.
+- **Deterministic Motion**: 60FPS text-reflow logic via `@chenglou/pretext`.
+- **Pixel-Perfect Logic**: Word-boundary aware layout that preserves semantic integrity within a chaotic data stream.
 
-## Expanding the ESLint configuration
+## Engineering Philosophy
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+> **"Bridging the gap between stochastic AI capabilities and deterministic software engineering."**
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+I specialize in taming non-deterministic AI outputs through strict type systems, ensuring pragmatic, high-impact MVP delivery without the architectural bloat.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Visual Spotlight
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+The **G** focal point is more than a logo—it represents the act of extracting core signals from noise. As you move, the narrative recomputes to reveal the underlying value of 14 years of battle-tested engineering.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+© 2026 Liam Fan. All Engineering Rights Reserved.

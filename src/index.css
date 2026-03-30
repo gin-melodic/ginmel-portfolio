@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* 强制全局背景色，防止页面边缘出现白边 */
+/* Force global background color to prevent white edges on the page */
 body {
   background-color: #050505;
   margin: 0;
