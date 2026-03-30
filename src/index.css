@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* 强制全局背景色，防止页面边缘出现白边 */
+body {
+  background-color: #050505;
+  margin: 0;
+}
